@@ -11,6 +11,15 @@ div[class*="vfrc-header"] img.vfrc-avatar {
   pointer-events: none !important;
 }
 
+/* Chatbot vrstvení nad headerem */
+.vfrc-widget-container {
+  position: fixed !important;
+  bottom: 24px !important;
+  right: 24px !important;
+  z-index: 2147483647 !important; /* maximum */
+}
+
+
 ._15emaa41 {
   font-weight: bold;
 }
