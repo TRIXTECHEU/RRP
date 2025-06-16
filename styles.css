@@ -11,8 +11,7 @@ div[class*="vfrc-header"] img.vfrc-avatar {
   pointer-events: none !important;
 }
 
-/* Styl samotného tlačítka */
-button.vfrc-button {
+div[class^="vfrc-widget"] button.vfrc-button[title="Máte nějaký dotaz?"] {
   position: relative;
   z-index: 1;
   background-color: #1b50b0;
@@ -24,8 +23,7 @@ button.vfrc-button {
   cursor: pointer;
 }
 
-/* Zlatý rámeček pomocí ::before */
-button.vfrc-button::before {
+div[class^="vfrc-widget"] button.vfrc-button[title="Máte nějaký dotaz?"]::before {
   content: "";
   position: absolute;
   top: -4px;
@@ -41,7 +39,6 @@ button.vfrc-button::before {
 .vfrc-widget {
   z-index: 999999 !important;
 }
-
 
 ._15emaa41 {
   font-weight: bold;
