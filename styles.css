@@ -11,8 +11,11 @@ div[class*="vfrc-header"] img.vfrc-avatar {
   pointer-events: none !important;
 }
 
-.vf-chat {
+#vf-chat-container,
+.vfrc-launcher,
+.vfrc-widget {
   z-index: 999999 !important;
+  position: fixed !important;
 }
 
 .vfrc-widget-container {
