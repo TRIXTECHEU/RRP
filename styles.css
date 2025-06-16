@@ -11,6 +11,22 @@ div[class*="vfrc-header"] img.vfrc-avatar {
   pointer-events: none !important;
 }
 
+.vfrc-button {
+  box-sizing: border-box;
+  padding: 10px 14px 10px 18px;  /* horní, pravý, dolní, levý */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border-radius: 9999px;
+  position: relative;
+  z-index: 1;
+}
+
+.vfrc-button::before {
+  display: none !important;  /* Tím odstraníš ten rozhozený rámeček */
+}
+
 .vfrc-widget {
   z-index: 999999 !important;
 }
