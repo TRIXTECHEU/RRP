@@ -11,16 +11,7 @@ div[class*="vfrc-header"] img.vfrc-avatar {
   pointer-events: none !important;
 }
 
-/* Opravdu jen Voiceflow bublina a okno */
-#vf-chat-container {
-  z-index: 999999 !important;
-  position: fixed !important;
-  bottom: 20px;
-  right: 20px;
-}
 
-
-/* Widget samotný – otevřené okno */
 .vfrc-widget {
   z-index: 999999 !important;
 }
