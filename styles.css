@@ -11,9 +11,10 @@ div[class*="vfrc-header"] img.vfrc-avatar {
   pointer-events: none !important;
 }
 
+/* Opravíme hlavní tlačítko */
 .vfrc-button {
   box-sizing: border-box;
-  padding: 10px 14px 10px 18px;  /* horní, pravý, dolní, levý */
+  padding: 10px 14px 10px 18px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,7 +22,24 @@ div[class*="vfrc-header"] img.vfrc-avatar {
   border-radius: 9999px;
   position: relative;
   z-index: 1;
+  background-color: #1b50b0; /* nebo barvu pozadí tlačítka */
+  color: white;
 }
+
+/* Opravíme zlatý rámeček */
+._15s29m92::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: 6.5px solid #d6b65a;
+  border-radius: 9999px;
+  z-index: -1;
+  pointer-events: none;
+}
+
 
 .vfrc-button::before {
   display: none !important;  /* Tím odstraníš ten rozhozený rámeček */
@@ -31,11 +49,6 @@ div[class*="vfrc-header"] img.vfrc-avatar {
   z-index: 999999 !important;
 }
 
-
-._15s29m92::before {
-  border: 6.5px solid #d6b65a;
-  border-radius: 9999px;
-}
 
 ._15emaa41 {
   font-weight: bold;
