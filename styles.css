@@ -11,19 +11,20 @@ div[class*="vfrc-header"] img.vfrc-avatar {
   pointer-events: none !important;
 }
 
-#vf-chat-container,
-.vfrc-launcher,
-.vfrc-widget {
+/* Opravdu jen Voiceflow bublina a okno */
+#vf-chat-container {
   z-index: 999999 !important;
   position: fixed !important;
+  bottom: 20px;
+  right: 20px;
 }
 
-.vfrc-widget-container {
-  position: fixed !important;
-  bottom: 24px !important;
-  right: 24px !important;
-  z-index: 2147483647 !important;
+
+/* Widget samotný – otevřené okno */
+.vfrc-widget {
+  z-index: 999999 !important;
 }
+
 
 
 ._15emaa41 {
