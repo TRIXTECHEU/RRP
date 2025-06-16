@@ -15,6 +15,15 @@ div[class*="vfrc-header"] img.vfrc-avatar {
   z-index: 999999 !important;
 }
 
+._15s29m92 {
+  box-sizing: border-box;
+  padding: 10px 14px 10px 20px; /* více vlevo, méně vpravo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 ._15s29m92::before {
   border: 6.5px solid #d6b65a;
   border-radius: 9999px;
