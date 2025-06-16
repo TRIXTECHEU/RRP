@@ -18,6 +18,7 @@ div[class*="vfrc-header"] img.vfrc-avatar {
   border-radius: 9999px;
   padding: 10px 18px;
   font-weight: 700;
+  letter-spacing: 0.2px !important;
   border: none;
   cursor: pointer;
 }
@@ -261,12 +262,6 @@ div[class*="vfrc-header"] img.vfrc-avatar {
       -webkit-user-drag: none !important;
       pointer-events: none !important;
   }
-
-  ._15s29m9a {
-    color: rgb(255, 255, 255) !important;
-    
-    letter-spacing: 0.2px !important;
-}
 
   ._1t7e06e0 {
     transform: translateX(-0.25px) !important;
