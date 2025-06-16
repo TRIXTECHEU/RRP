@@ -38,11 +38,6 @@ button.vfrc-button::before {
   pointer-events: none;
 }
 
-
-.vfrc-button::before {
-  display: none !important;  /* Tím odstraníš ten rozhozený rámeček */
-}
-
 .vfrc-widget {
   z-index: 999999 !important;
 }
