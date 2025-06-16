@@ -11,7 +11,8 @@ div[class*="vfrc-header"] img.vfrc-avatar {
   pointer-events: none !important;
 }
 
-div[class^="vfrc-widget"] button.vfrc-button[title="Máte nějaký dotaz?"] {
+/* Styluj tlačítko POUZE uvnitř launcher divu */
+._1wkq7nfd > .vfrc-button {
   position: relative;
   z-index: 1;
   background-color: #1b50b0;
@@ -23,7 +24,8 @@ div[class^="vfrc-widget"] button.vfrc-button[title="Máte nějaký dotaz?"] {
   cursor: pointer;
 }
 
-div[class^="vfrc-widget"] button.vfrc-button[title="Máte nějaký dotaz?"]::before {
+/* Zlatý rámeček jen pro launcher tlačítko */
+._1wkq7nfd > .vfrc-button::before {
   content: "";
   position: absolute;
   top: -4px;
@@ -35,6 +37,7 @@ div[class^="vfrc-widget"] button.vfrc-button[title="Máte nějaký dotaz?"]::bef
   z-index: -1;
   pointer-events: none;
 }
+
 
 .vfrc-widget {
   z-index: 999999 !important;
