@@ -11,6 +11,10 @@ div[class*="vfrc-header"] img.vfrc-avatar {
   pointer-events: none !important;
 }
 
+.vfrc-card--description._1lbxmyd5 {
+  font-size: 12px;
+}
+
 ._1wkq7nfd > .vfrc-button {
   position: relative;
   z-index: 1;
