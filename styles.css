@@ -238,7 +238,7 @@
   --card-btn-shine-display: block;
   --card-btn-shine-color: linear-gradient(115deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.32) 50%, rgba(255, 255, 255, 0) 100%);
     
-  --card-btn-icon-url: url("https://trixtecheu.github.io/FINENET/images/icons//icon-link.svg");
+  --card-btn-icon-url: url("https://trixtecheu.github.io/RRP/images/icons//icon-link.svg");
   --card-btn-icon-display: block;
   --card-btn-icon-size: 14px;
   --card-btn-icon-gap: 9px;
@@ -256,12 +256,12 @@
   --carousel-icon-inner-size: 20px 20px;
   
   /* 10.8.1) Carousel button - Default state */
-  --carousel-btn-bg: #D6B65A;
-  --carousel-btn-border: 2px solid #FFFFFF;
+  --carousel-btn-bg: #1A365B;
+  --carousel-btn-border: 2px solid #1A365B;
   
   /* 10.8.2) Carousel button - Hover state */
-  --carousel-btn-bg-hover: #D6B65A;
-  --carousel-btn-border-hover: 2px solid #FFFFFF;
+  --carousel-btn-bg-hover: #1A365B;
+  --carousel-btn-border-hover: 2px solid #1A365B;
   --carousel-btn-scale-hover: 1.05;
   --carousel-icon-url-hover: url("https://trixtecheu.github.io/RRP/images/icons/icon-arrow-carousel.svg");
 
@@ -283,10 +283,10 @@
   --ai-text-letter-spacing: normal;
 
   /* 11.2) Scroll button */
-  --scroll-btn-bg-color: #D6B65A;
+  --scroll-btn-bg-color: #1A365B;
   --scroll-btn-icon: url("https://trixtecheu.github.io/RRP/images/icons/icon-scroll-down.svg");
   --scroll-btn-size: 16px 16px;
-  --scroll-btn-border: 2px solid #FFFFFF;
+  --scroll-btn-border: 2px solid #1A365B;
 
 
   /* 12) FOOTER INPUT AND SEND BUTTON */
