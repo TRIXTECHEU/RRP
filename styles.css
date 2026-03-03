@@ -195,7 +195,7 @@
   /* 10.3) Card header and description */
   --card-header-size: 14px;
   --card-header-weight: 600;
-  --card-header-color: #D6B65A;
+  --card-header-color: #000000;
   --card-header-spacing: 0.02em;
   --card-header-padding: 0;
   --card-header-margin-top: 0;
@@ -234,12 +234,18 @@
   --card-btn-text-color-hover: #FFFFFF;
   --card-btn-border-hover: none;
 
-  /* 10.7) Card button - Extras */
+  /* 10.7) Card Button Extras */
   --card-btn-shine-display: none;
   --card-btn-shine-color: linear-gradient(115deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.32) 50%, rgba(255, 255, 255, 0) 100%);
+    
+  --card-btn-icon-url: url("https://trixtecheu.github.io/FINENET/images/icons//icon-link.svg");
+  --card-btn-icon-display: block;
+  --card-btn-icon-size: 14px;
+  --card-btn-icon-gap: 9px;
+  --card-btn-icon-move: 0px;
 
   /* 10.8) Carousel navigation */
-  --carousel-icon-url: url("https://trixtecheu.github.io/RRP/images/icons/icon-arrow.svg");
+  --carousel-icon-url: url("https://trixtecheu.github.io/RRP/images/icons/icon-arrow-carousel.svg");
   --carousel-rotate-left: 0deg;
   --carousel-rotate-right: 0deg;
   --carousel-btn-size: 42px;
@@ -257,7 +263,7 @@
   --carousel-btn-bg-hover: #D6B65A;
   --carousel-btn-border-hover: 2px solid #FFFFFF;
   --carousel-btn-scale-hover: 1.05;
-  --carousel-icon-url-hover: url("https://trixtecheu.github.io/RRP/images/icons/icon-arrow.svg");
+  --carousel-icon-url-hover: url("https://trixtecheu.github.io/RRP/images/icons/icon-arrow-carousel.svg");
 
 
   /* 11) AI BADGE AND SCROLL BUTTON */
@@ -361,7 +367,7 @@
   --launcher-close-shadow: none;
   --launcher-close-icon-size: 20px;
   --launcher-close-icon-color: #FFFFFF;
-  --launcher-close-icon-url: url("https://trixtecheu.github.io/RRP/images/icons/icon-arrow.svg");
+  --launcher-close-icon-url: url("https://trixtecheu.github.io/RRP/images/icons/icon-arrow-carousel.svg");
   --launcher-close-rotate: 90deg;
 
   /* 14.5) Launcher - Close state (Hover) */
