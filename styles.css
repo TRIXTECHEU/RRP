@@ -257,11 +257,11 @@
   
   /* 10.8.1) Carousel button - Default state */
   --carousel-btn-bg: #1A365B;
-  --carousel-btn-border: 2px solid #1A365B;
+  --carousel-btn-border: 2px solid #D6B65A;
   
   /* 10.8.2) Carousel button - Hover state */
   --carousel-btn-bg-hover: #1A365B;
-  --carousel-btn-border-hover: 2px solid #1A365B;
+  --carousel-btn-border-hover: 2px solid #D6B65A;
   --carousel-btn-scale-hover: 1.05;
   --carousel-icon-url-hover: url("https://trixtecheu.github.io/RRP/images/icons/icon-arrow-carousel.svg");
 
@@ -286,7 +286,7 @@
   --scroll-btn-bg-color: #1A365B;
   --scroll-btn-icon: url("https://trixtecheu.github.io/RRP/images/icons/icon-scroll-down.svg");
   --scroll-btn-size: 16px 16px;
-  --scroll-btn-border: 2px solid #1A365B;
+  --scroll-btn-border: 2px solid #D6B65A;
 
 
   /* 12) FOOTER INPUT AND SEND BUTTON */
