@@ -346,7 +346,7 @@
   /* 14.1) Launcher base properties */
   --launcher-border-radius: 9999px;
   --launcher-border: 2px solid #D6B65A;
-  --launcher-transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  --launcher-transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   --launcher-z-index: 2147483647;
 
   /* 14.2) Launcher - Open state (Default) */
@@ -357,7 +357,7 @@
   --launcher-open-icon-size: 0px;
 
   /* 14.3) Launcher - Open state (Hover) */
-  --launcher-open-hover-scale: 1.05;
+  --launcher-open-hover-scale: 1.04;
   --launcher-open-hover-rotate: 0deg;
 
   /* 14.4) Launcher - Close state (Default) */
@@ -371,7 +371,7 @@
   --launcher-close-rotate: 90deg;
 
   /* 14.5) Launcher - Close state (Hover) */
-  --launcher-close-hover-scale: 1.05;
+  --launcher-close-hover-scale: 1.04;
 
   /* 14.6) Proactive message card */
   --proactive-bg: #FFFFFF;
